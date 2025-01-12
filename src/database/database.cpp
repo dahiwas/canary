@@ -5,7 +5,10 @@
  * License: https://github.com/opentibiabr/canary/blob/main/LICENSE
  * Contributors: https://github.com/opentibiabr/canary/graphs/contributors
  * Website: https://docs.opentibiabr.com/
- */
+
+ Remocao da parte que mexe com horario, removi a funcao inteira
+
+*/
 
 #include "database/database.hpp"
 

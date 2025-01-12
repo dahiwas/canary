@@ -1,5 +1,15 @@
 # OpenTibiaBR - Canary
 
+Basicamente nesse repositorio foram feitas algumas modificações para que pudesse deixar o ambiente canary pronto para compilar em arquiteturas ARM:
+- Alteração no arquivo CMakeLists.txt
+-- Add alguns parametros de Thread
+-- Remoção de parametros de arch AMD
+
+- Remoção da função do arquivo /src/database/databse.cpp
+
+Dessa forma, com o vcpkg pronto, basta prosseguir com o processo de build
+
+
 [![Discord Channel](https://img.shields.io/discord/528117503952551936.svg?style=flat-square&logo=discord)](https://discord.gg/gvTj5sh9Mp)
 [![Build - Ubuntu](https://github.com/opentibiabr/canary/actions/workflows/build-ubuntu.yml/badge.svg)](https://github.com/opentibiabr/canary/actions/workflows/build-ubuntu.yml)
 [![Build - Windows - CMake](https://github.com/opentibiabr/canary/actions/workflows/build-windows-cmake.yml/badge.svg)](https://github.com/opentibiabr/canary/actions/workflows/build-windows-cmake.yml)
